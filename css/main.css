@@ -1,0 +1,1063 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+/*about us css*/
+
+.bbodys {
+    padding: 100px;
+    left: 170px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+
+#nav {
+    position: relative;
+    background-color: rgb(10, 10, 10);
+    left: 140px;
+    width: 1000px;
+    height: 100px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    text-align: right;
+    margin: auto;
+    z-index: 3;
+}
+
+nav {
+    position: relative;
+    background-color: rgba(0, 0, 0, 1);
+    margin: auto;
+    width: 100%;
+    padding: 0 10px;
+    z-index: 10;
+    text-align: center;
+
+}
+
+nav ul li {
+    display: inline;
+    font-size: x-large;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    display: inline;
+    font-size: x-large;
+    color: white;
+    text-decoration: underline;
+}
+
+nav ul li[title="Boni's Garage"] {
+    position: absolute;
+    line-height: 25px;
+    left: 50px;
+    bottom: -12px;
+    text-align: center;
+}
+
+nav ul li a[target="_self"] {
+    position: relative;
+    font-weight: bolder;
+}
+
+nav ul li a:hover[target="_self"] {
+    position: relative;
+    text-decoration: none;
+}
+
+#logo{
+    color: red;
+    font-family:;    
+}
+
+.mnav {
+    position: absolute;
+    margin-top: 50px;
+
+}
+
+.navimg {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    right: 900px;
+    bottom: -25px;
+}
+
+.links {
+    position: relative;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16pt;
+    font-weight: bold;
+    color: white;
+    top: 40px;
+    z-index: 3;
+}
+
+.links:hover {
+    background-color: gray;
+}
+
+.bbody {
+    position: relative;
+    z-index: 0;
+    padding: 30px;
+}
+
+.bodimage {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    filter: sepia(1);
+    background-image: url("../Pic/university.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.Abod {
+    position: relative;
+    background-color: rgba(130, 130, 130, 0.5);
+    width: 1149px;
+    height: 100%;
+    margin: auto;
+}
+
+.img2 {
+    position: relative;
+    float: right;
+}
+
+.boni {
+    position: relative;
+    right: 30px;
+}
+
+.wrap {
+    position: absolute;
+    bottom: 400px;
+    right: 20px;
+
+}
+
+.wrap:hover {
+    position: absolute;
+    right: -101px;
+    z-index: 100;
+    width: 400px;
+    height: 300px;
+    top: -60px;
+    margin: 30px;
+}
+
+#text {
+    position: relative;
+    top: 300px;
+    width: 600px;
+    height: 600px;
+    white-space: pre-wrap;
+    font-size: 14pt;
+    right: 140px;
+    line-height: 30px;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+
+
+}
+
+#btext {
+    position: relative;
+    left: 370px;
+    width: 250px;
+    height: 500px;
+    font-size: 15pt;
+    color: white;
+    bottom: 280px;
+    text-shadow: 2px 4px 4px black;
+}
+
+.mappp {
+    position: relative;
+    right: 50px;
+    z-index: 120;
+    top: 10px;
+
+}
+
+@media screen and (max-width: 768px) {
+    /* About Us*/
+    .Abod {
+        position: relative;
+        background-color: rgba(130, 130, 130, 0.5);
+        width: 649px;
+        height: 100%;
+        margin: 0px auto;
+    }
+    #text {
+        font-size: 11pt;
+        width: 300px;
+        overflow: scroll;
+    }
+    #nav {
+        width: 400px;
+        height: 100px;
+    }
+    .navimg {
+        position: absolute;
+        left: -100px;
+        top: -30px;
+    }
+    .links {
+        font-size: 12pt;
+    }
+    .bbody {
+        padding: 30px;
+    }
+    #btext {
+        font-size: 9pt;
+        left: 180px;
+    }
+    .wrap {
+        width: 80px;
+        height: 80px;
+        border-spacing: 400px 400px;
+        top: 10px;
+    }
+    .wrap:hover {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 60px;
+        border-spacing: 400px 400px;
+    }
+    iframe {
+        position: relative;
+        width: 240px;
+        left: 3px;
+    }
+    .boni {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/* Services css*/
+.bodySer{
+     position: relative;
+    z-index: 0;
+    padding: 30px;
+     margin: auto;
+}
+    
+}
+#fade {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    right: 100px;
+    top: 120px;
+    z-index: 100;
+    margin: auto;
+}
+
+.fade {
+
+    width: 1000px;
+}
+
+#navSer {
+    position: relative;
+    background-color: rgb(10, 10, 10);
+    width: 1000px;
+    height: 100px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    text-align: right;
+    margin: auto;
+    z-index: 3;
+}
+
+.mnavSer {
+    position: relative;
+    margin-top: 50px;
+    left: 20px;
+    margin: auto;
+}
+
+.navimgSer {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    right: 900px;
+    bottom: -25px;
+}
+
+.est {
+    position: relative;
+    background-color: rgba(100, 100, 100, 0.5);
+    color: cyan;
+    text-shadow: 4px 4px 4px black;
+    font-size: 18pt;
+    font-weight: bolder;
+    width: 1000px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 400px;
+}
+
+.a {
+
+    padding: 10px;
+    font-size: 16pt;
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+}
+
+.a:hover {
+
+    padding: 10px;
+    transition: 1s;
+    background-color: rgb(10, 10, 10);
+
+}
+
+.body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    filter: contrast(1);
+    z-index: 0;
+}
+
+.bod {
+    position: relative;
+
+    width: 1149px;
+    height: 600px;
+    top: 120px;
+    margin: auto;
+}
+
+.video {
+    position: relative;
+    left: 250px;
+    bottom: 400px;
+}
+
+#bcomm {
+    width: 100%;
+    height: 600px;
+
+}
+
+.more {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+.more:hover {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 3px;
+}
+
+#comm {
+    position: absolute;
+    width: 69.9%;
+    height: 200px;
+
+    left: 160px;
+    top: 60px;
+
+}
+
+#comment1 {
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+
+}
+
+#comment2 {
+    left: 300px;
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+
+}
+
+#comment3 {
+    left: 600px;
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+
+}
+
+#comm2 {
+    position: absolute;
+    width: 69.9%;
+    height: 200px;
+    left: 160px;
+
+    bottom: 60px;
+}
+
+#comment4 {
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+}
+
+#comment5 {
+    left: 300px;
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+}
+
+#comment6 {
+    left: 600px;
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+}
+
+#comm3 {
+    position: absolute;
+    width: 69.9%;
+    height: 200px;
+    left: 160px;
+    top: 620px;
+    margin-bottom: 40px;
+}
+
+#comment7 {
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+}
+
+#comment8 {
+    left: 300px;
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+}
+
+#comment9 {
+    left: 600px;
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 200px;
+    height: 230px;
+    z-index: 2;
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Services */
+    #fade {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    right: 100px;
+    top: 120px;
+    z-index: 100;
+    margin: auto;
+}
+
+.fade {
+
+    width: 1000px;
+}
+    
+    #navSer {
+    position: relative;
+    background-color: rgb(10, 10, 10);
+    width: 500px;
+    height: 100px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    text-align: right;
+
+    margin: auto;
+    z-index: 3;
+}
+
+.mnavSer {
+    position: relative;
+    margin-top: 50px;
+    left: 20px;
+    margin: auto;
+    
+}
+
+.navimgSer {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    right: 380px;
+    bottom: -25px;
+}
+
+.est {
+    position: relative;
+    background-color: rgba(100, 100, 100, 0.5);
+    color: cyan;
+    text-shadow: 4px 4px 4px black;
+    font-size: 12pt;
+    font-weight: bolder;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 400px;
+}
+
+.a {
+
+    padding: 10px;
+    font-size: 16pt;
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+}
+
+.a:hover {
+
+    padding: 10px;
+    transition: 1s;
+    background-color: rgb(10, 10, 10);
+
+}
+
+.body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    filter: contrast(1);
+    z-index: 0;
+}
+
+.bod {
+    position: relative;
+
+    width: 649px;
+    height: 600px;
+    top: 120px;
+    margin: auto;
+}
+
+.video {
+    position: relative;
+    left: 250px;
+    bottom: 400px;
+}
+
+#bcomm {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    bottom: 300px;
+}
+
+.more {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+.more:hover {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 3px;
+}
+
+#comm {
+    position: absolute;
+    width: 69.9%;
+    height: 200px;
+
+    left: 10px;
+    top: 60px;
+
+}
+
+#comment1 {
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 120px;
+    height: 255px;
+    z-index: 2;
+    font-size: 10pt;
+
+}
+
+#comment2 {
+    left: 250px;
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 120px;
+    height: 255px;
+ font-size: 10pt;
+    z-index: 2;
+
+}
+
+#comment3 {
+    left: 500px;
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 110px;
+    height: 255px;
+ font-size: 10pt;;
+    z-index: 2;
+
+}
+
+#comm2 {
+    position: absolute;
+    width: 69.9%;
+    height: 200px;
+    left: 10px;
+
+    bottom: 60px;
+}
+
+#comment4 {
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 120px;
+    height: 255px;
+ font-size: 10pt;
+    z-index: 2;
+}
+
+#comment5 {
+    left: 250px;
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 120px;
+    height: 255px;
+ font-size: 10pt;
+    z-index: 2;
+}
+
+#comment6 {
+    left: 500px;
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 110px;
+   height: 255px;
+ font-size: 10pt;
+    z-index: 2;
+}
+
+#comm3 {
+    position: absolute;
+    width: 69.9%;
+    height: 200px;
+    left: 10px;
+    top: 620px;
+    margin-bottom: 40px;
+}
+
+#comment7 {
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 120px;
+    height: 255px;
+ font-size: 10pt;
+    z-index: 2;
+}
+
+#comment8 {
+    left: 250px;
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 120px;
+   height: 255px;
+ font-size: 10pt;
+    z-index: 2;
+}
+
+#comment9 {
+    left: 500px;
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(31, 26, 26, 0.7);
+    color: cyan;
+    width: 110px;
+   height: 259px;
+ font-size: 10pt;
+    z-index: 2;
+}
+    
+}
+
+/*Estimate css*/
+
+.Ebody {
+    padding: 50px;
+    width: 1149px;
+}
+
+#bimage {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+}
+
+#im {
+    position: relative;
+    top: 10px;
+    z-index: 3;
+}
+
+.map {
+    position: relative;
+    width: 600px;
+    height: 330px;
+    left: 320px;
+    margin-top: 300px;
+    z-index: 2;
+}
+
+.pp {
+    position: relative;
+    width: 500px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    height: 120px;
+    font-size: 16pt;
+    background-color: rgba(70, 70, 70, 0.5);
+    color: white;
+    z-index: 0;
+    top: 50px;
+    left: 50px;
+}
+
+.text {
+    font-size: 13pt;
+    overflow-y: scroll;
+    resize: none;
+}
+
+#sub {
+    position: relative;
+    bottom: 8px;
+    font-size: 16pt;
+    font-variant-caps: petite-caps;
+}
+
+.mails {
+    position: relative;
+    width: 400px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+    z-index: 16;
+    top: 80px;
+    left: 40px;
+    margin-bottom: 40px;
+}
+
+.sen {
+    color: cyan;
+    text-shadow: 3px 3px 4px black;
+}
+
+.sen:hover {
+    color: red;
+}
+
+.form {
+    position: relative;
+    top: 100px;
+    z-index: 2;
+    color: rgb(180, 0, 0);
+    left: 60px;
+    font-size: 15pt;
+    margin-bottom: 50px
+}
+
+.bor {
+
+    background-color: rgba(30, 30, 30, 1);
+
+}
+@media screen and ( max-width: 768px){
+    /* Estimate */
+    .Ebody {
+    padding: 50px;
+    width: 549px;
+}
+
+#bimage {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+}
+
+#im {
+    position: relative;
+    top: 10px;
+    z-index: 3;
+}
+
+.map {
+    position: relative;
+    width: 600px;
+    height: 330px;
+    left: -30px;
+    margin-top: 300px;
+    z-index: 2;
+}
+
+.pp {
+    position: relative;
+    width: 500px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    height: 120px;
+    font-size: 16pt;
+    background-color: rgba(70, 70, 70, 0.5);
+    color: white;
+    z-index: 0;
+    top: 50px;
+    left: -20px;
+}
+
+.text {
+    font-size: 13pt;
+    overflow-y: scroll;
+    resize: none;
+}
+
+#sub {
+    position: relative;
+    bottom: 8px;
+    font-size: 16pt;
+    font-variant-caps: petite-caps;
+}
+
+.mails {
+    position: relative;
+    width: 400px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+    z-index: 16;
+    top: 80px;
+    left: -20px;
+    margin-bottom: 40px;
+}
+
+.sen {
+    color: cyan;
+    text-shadow: 3px 3px 4px black;
+}
+
+.sen:hover {
+    color: red;
+}
+
+.form {
+    position: relative;
+    top: 100px;
+    z-index: 2;
+    color: rgb(180, 0, 0);
+    left: 60px;
+    font-size: 15pt;
+    margin-bottom: 50px
+}
+
+.bor {
+
+    background-color: rgba(30, 30, 30, 1);
+
+}
+    
+}
+
+/*Service info */
+#Sbackground{
+    background-color: black;
+}
+#Snav {
+    position: relative;
+    background-color: rgb(10, 10, 10);
+    left: 80px;
+    width: 1000px;
+    height: 100px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    text-align: right;
+    margin: auto;
+    z-index: 3;
+    margin: auto;
+}
+
+.Smnav {
+    position: absolute;
+    margin-top: 50px;
+    left: 20px;
+    margin: auto;
+}
+
+.Snavimg {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    right: 900px;
+    bottom: -25px;
+}
+
+
+.Mini {
+    font-size: 14pt;
+    position: fixed;
+    top: 250px;
+    text-decoration: none;
+}
+
+.min {
+    text-decoration: none;
+}
+
+.Sbody {
+    position: relative;
+    padding: 50px;
+    background-color: rgb(200, 200, 200);
+    width: 1000px;
+    height: 80%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.logo {
+    position: relative;
+    bottom: 110px;
+    right: 20px;
+}
+
+.Sp {
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    bottom: 20px;
+    margin: auto;
+    margin-top: 300px;
+    font-size: 14pt;
+    font-family: Calibri;
+    width: 750px;
+    border: 3px solid black;
+    height: 100%;
+}
+/*Terms css */ 
+#Tbody {
+    position: relative;
+	margin:auto;
+	background-color:rgba(0,0,40,0.5);
+	width:900px;
+	z-index:100;
+    color: white;
+    text-align: center;
+    font-size: 16pt;
+}
+
+#Tbody section {
+    position: relative;
+    max-width: 600px; 
+    width: 100%;
+    
+}
+
+#Tbody img {
+    position: relative;
+    margin: auto;
+    max-width: 700px;
+    width: 100%;
+}
+
+
+
+

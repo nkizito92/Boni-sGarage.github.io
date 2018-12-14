@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Boni's Garage online</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/indexS.css" />
+    <link rel="shortcut icon" href="/Pic/Boni's logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li title="Boni's Garage">
+          <a href="index.html" target="_self"
+            ><span id="logo">Boni's </span>GARAGE
+            <div style="font-size: 12pt; font-weight: bolder;">
+              AUTO REPAIR
+            </div></a
+          >
+        </li>
+        <li>
+          <a href="index.html" style="text-decoration: underline">Home</a>
+        </li>
+        <li><a href="html/about.html">About Us</a></li>
+        <li><a href="html/Services.html">Service</a></li>
+        <li><a href="html/Estimate.html">Get an Estimate</a></li>
+      </ul>
+    </nav>
+    <div id="center">
+      <!-- main image that changes -->
+      <button id="previous">&lt;</button>
+      <div id="slide"></div>
+      <button id="next">&gt;</button>
+
+      <div id="set1">
+        <ul>
+          <li class="glow"></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+
+    <main>
+      <!--
+        <video id="video" preload="auto" controls src="Video/Tip3.mp4"></video>
+        <div class="Vtip">Vehicle Tip Of The Month!!
+            <span id="atip">TIP!!</span>
+        </div>
+      -->
+      <section class="estimate">
+        Call us for a free Estimate!! (832)433-1537
+      </section>
+
+      <div id="btext">
+        <div id="wtext">
+          <aside id="wtext1">
+            <h3>BONI'S GARAGE</h3>
+            <div>Working Hours:</div>
+            <div>Mon-Fri 9am-6pm</div>
+            <div>Sat-9am-2pm</div>
+            <p>SUNDAY-CLOSED</p>
+          </aside>
+          <aside id="wtext2">
+            <ul>
+              <li>Engine</li>
+              <li>Transmission</li>
+              <li>Cv Axles</li>
+              <li>Timing belt</li>
+              <li>Water Pumps</li>
+            </ul>
+            <div class="pay">
+              We Accept
+              <img id="payim" src="Pic/pay.jpg" width="450px" height="60px" />
+            </div>
+          </aside>
+          <aside id="wtext3">
+            <ul>
+              <li>Fuel Pumps</li>
+              <li>A/C Repair</li>
+              <li>Brakes</li>
+              <li>Oil Change and More!!</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+
+      <section class="sec">
+        <div align="center">
+          <img src="Pic/img6.png" class="arrange" draggable="false" />
+          <img draggable="false" src="Pic/inspection.JPG" class="arrange" />
+          <img
+            draggable="false"
+            src="http://www.showcasepaintandbody.com/wp-content/uploads/2013/12/auto-body-icon.png"
+            class="arrange"
+          />
+        </div>
+        <div class="div">
+          <div class="fontstyle">
+            <h3>Hi I'm Boni!!</h3>
+            I am the owner of Boni's Garage. Like what you see?! Come and visit
+            my garage and we will provide you with assistance!
+          </div>
+          <div class="fontstyle2">
+            <h3>Inspection!!</h3>
+            Do you need to have your vehicle inspected? We have a friend that
+            can inspect your vehicle!!
+          </div>
+          <div class="fontstyle3">
+            <h3>Maintenance!!</h3>
+            Come to my garage with your vehicle and we will do our best to make
+            your car like new again!!
+          </div>
+        </div>
+        <section class="serv">
+          <strong>Learn more about our services!! </strong>
+          <a href="html/Services.html" id="a">Service </a>
+        </section>
+      </section>
+      <section class="assosiates">
+        <ul>
+          <li>
+            <a href="https://www.enterprise.com/en/home.html" target="_blank"
+              ><img src="Pic/enterprise.png" draggable="false"
+            /></a>
+          </li>
+          <li>
+            <a href="http://www.tjdtrans.com/" target="_blank"
+              ><img
+                src="Pic/tjd2.jpg"
+                width="250px"
+                height="100px"
+                draggable="false"
+            /></a>
+          </li>
+          <li id="bloker">
+            <a
+              href="https://snapfinance.com/?k=true"
+              target="_blank"
+              id="snapFin"
+              >snap!<span id="green">finance</span></a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      Our Terms and rules we follow in order to keep business successful!!
+      <a href="html/terms.html" target="_blank"> Terms </a> <br />
+      <small>@All rights reserved to Kizito Njoku</small>
+    </footer>
+    <script>
+      index();
+    </script>
+  </body>
+</html>
